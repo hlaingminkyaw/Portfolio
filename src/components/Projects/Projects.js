@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Ticket Management System"
+              description="Developed a full ticketing system with automated announcements, SLA-based assignment, email notifications, a resolution workflow, and an admin review module. Built with Laravel and AJAX, including dashboards for team performance and ticket tracking."
+              ghLink="https://github.com/hlaingminkyaw/"
+              demoLink="https://github.com/hlaingminkyaw/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="UNICEF Disability Management System"
+              description="Maintained UNICEF’s nationwide Disability Management System, improving data accuracy, reporting, and performance. Handled SQL optimization, fixed dashboard issues, and supported data processing for 900,000+ child records. Worked on donation tracking, verification features, and registration workflows using PHP, Laravel, and MySQL."
+              ghLink="https://github.com/hlaingminkyaw/"
+              demoLink="https://github.com/hlaingminkyaw/"
             />
           </Col>
 
@@ -47,10 +47,11 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="ပိဋကသုံးပုံ ပါဠိတော် မြန်မာပြန် Online Platform"
+              description="ပိဋကသုံးပုံ ပါဠိတော် မြန်မာပြန် စာမေးပွဲအတွက် မှတ်ပုံတင်ရန်အသုံးပြုနိုင်သည့် Online Platform ဖြစ်ပါတယ်။ စာမေးပွဲရန် လျှောက်လွှာစာရင်းသွင်းမှု၊ အချက်အလက်ထိန်းချုပ်မှုနှင့် လွယ်ကူသော မှတ်ပုံတင်စနစ်ဖြင့် အသုံးပြုသူများအတွက် လွယ်ကူစွာ စာမေးပွဲဝင်ရောက်နိုင်စေပါသည်။"
+
+              ghLink="https://github.com/hlaingminkyaw/"
+              demoLink="https://ptk.sytnmyanmar.org/"              
             />
           </Col>
 
@@ -58,10 +59,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="ပိဋကတ် မြန်မာပြန် လမ်းညွှန် Web Application"
+              description="ပိဋကတ် မူရင်း ပါဠိ ကို မြန်မာဘာသာဖြင့် လွယ်ကူစွာ နားလည်နိုင်ရန်အတွက် တစ်နေရာတည်းမှ လမ်းညွှန်ပေးသည့် Web Application ဖြစ်သည်။ ပါဠိ–မြန်မာ ဘာသာပြန်ချက်များ၊ သဘောတရားရှင်းလင်းချက်များနှင့် ဖတ်ရှုလေ့လာနိုင်သည့် လေ့ကျင့်ရေး အထောက်အပံ့များကို စနစ်တကျ ထည့်သွင်းပေးထားသည်။"
+              ghLink="https://github.com/hlaingminkyaw/"
+              demoLink="https://spm.sytnmyanmar.org/"
             />
           </Col>
 
@@ -69,9 +70,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Dengue Surveillance System"
+              description="မြန်မာနိုင်ငံအနှံ့ရှိ သွေးလွန်တုပ်ကွေး ရောဂါအဖြစ်အပျက်များကို စုစည်းပြီး ချက်ချင်း သတင်းပို့နိုင်သည့် စောင့်ကြပ်မော်နီတာလုပ်ကိုင်ရန်အတွက် ဖန်တီးထားသော စနစ် ဖြစ်သည်။ ဒေတာ မှတ်တမ်းတင်ခြင်း၊ ရောဂါဖြစ်ပွားမှု မြေပုံဖော်ပြခြင်း၊ နေ့စဉ် အခြေအနေများကို တိတိကျကျ သင်္ကေတထုတ်ပေးနိုင်ပြီး ကျန်းမာရေးဌာနများအတွက် ဆောင်ရွက်ရန် လွယ်ကူစေသည်။"
+              ghLink="https://github.com/hlaingminkyaw/"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -80,10 +81,10 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Myanmar Accountancy Council Website"
+              description="Government website developed for the Myanmar Accountancy Council, supporting student and admin portals. Managed online student registration, batch/subject forms, and NRC validation. Implemented K-Pay, CB Bank, and bank transfer payment integrations. Added role-based access control, improved security, and assisted in server and firewall setup to ensure system reliability."
+
+              ghLink="https://github.com/hlaingminkyaw/"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
