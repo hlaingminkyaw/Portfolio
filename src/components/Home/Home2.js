@@ -16,7 +16,7 @@ function Home2() {
             <p className="home-about-body">
               I’m a dedicated <b className="purple">PHP & Laravel Developer</b> with
               hands-on experience in building reliable, scalable backend systems.
-              Over the past two years, I’ve worked on real-world projects such as
+              Over the past three years, I’ve worked on real-world projects such as
               a Ticket Management System and digital platforms used in Myanmar,
               gaining strong skills in developing structured, efficient, and secure applications.
               <br /><br />

@@ -11,8 +11,8 @@ function AboutCard() {
             Hello! I'm <span className="purple">Hlaing Min Kyaw</span> from{" "}
             <span className="purple">Myanmar</span>.
             <br />
-            I’m a <span className="purple">PHP & Laravel Developer</span> with over
-            2 years of experience in backend development.
+            I’m a <span className="purple">PHP & Laravel Developer</span> with
+            3 years of experience in backend development.
             <br />
             I specialize in building efficient, secure, and scalable web
             applications using Laravel, MySQL, REST APIs, and modern development
