@@ -8,6 +8,8 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import posImg from "../../Assets/Projects/pos.png";
+import clinicPosImg from "../../Assets/Projects/clinic-pos.png";
 
 function Projects() {
   return (
@@ -51,7 +53,7 @@ function Projects() {
               description="ပိဋကသုံးပုံ ပါဠိတော် မြန်မာပြန် စာမေးပွဲအတွက် မှတ်ပုံတင်ရန်အသုံးပြုနိုင်သည့် Online Platform ဖြစ်ပါတယ်။ စာမေးပွဲရန် လျှောက်လွှာစာရင်းသွင်းမှု၊ အချက်အလက်ထိန်းချုပ်မှုနှင့် လွယ်ကူသော မှတ်ပုံတင်စနစ်ဖြင့် အသုံးပြုသူများအတွက် လွယ်ကူစွာ စာမေးပွဲဝင်ရောက်နိုင်စေပါသည်။"
 
               ghLink="https://github.com/hlaingminkyaw/"
-              demoLink="https://ptk.sytnmyanmar.org/"              
+              demoLink="https://ptk.sytnmyanmar.org/"
             />
           </Col>
 
@@ -73,7 +75,7 @@ function Projects() {
               title="Dengue Surveillance System"
               description="မြန်မာနိုင်ငံအနှံ့ရှိ သွေးလွန်တုပ်ကွေး ရောဂါအဖြစ်အပျက်များကို စုစည်းပြီး ချက်ချင်း သတင်းပို့နိုင်သည့် စောင့်ကြပ်မော်နီတာလုပ်ကိုင်ရန်အတွက် ဖန်တီးထားသော စနစ် ဖြစ်သည်။ ဒေတာ မှတ်တမ်းတင်ခြင်း၊ ရောဂါဖြစ်ပွားမှု မြေပုံဖော်ပြခြင်း၊ နေ့စဉ် အခြေအနေများကို တိတိကျကျ သင်္ကေတထုတ်ပေးနိုင်ပြီး ကျန်းမာရေးဌာနများအတွက် ဆောင်ရွက်ရန် လွယ်ကူစေသည်။"
               ghLink="https://github.com/hlaingminkyaw/"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
@@ -85,7 +87,29 @@ function Projects() {
               description="Government website developed for the Myanmar Accountancy Council, supporting student and admin portals. Managed online student registration, batch/subject forms, and NRC validation. Implemented K-Pay, CB Bank, and bank transfer payment integrations. Added role-based access control, improved security, and assisted in server and firewall setup to ensure system reliability."
 
               ghLink="https://github.com/hlaingminkyaw/"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={posImg}
+              isBlog={false}
+              title="SSE POS System"
+              description="A Point of Sale and Dashboard management system. Features include invoice generation, purchase orders, inventory management, quotation handling, and real-time net profit reporting. Built with robust user authentication and an intuitive admin interface for SSE Web Solutions."
+              ghLink="https://github.com/hlaingminkyaw/"
+              demoLink="https://shinepixelprinting.com/dashboard"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={clinicPosImg}
+              isBlog={false}
+              title="Clinic POS System"
+              description="A comprehensive Patient and Point of Sale system tailored for Clinics. Features include patient and doctor administration, treatment tracking, OT and Lab management, invoice generation, expense tracking, and detailed daily/monthly analytics."
+              ghLink="https://github.com/hlaingminkyaw/"
+              demoLink="https://nyein-specialistclinic-ymt.com/"
             />
           </Col>
         </Row>
